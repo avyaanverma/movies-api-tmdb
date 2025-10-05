@@ -1,0 +1,24 @@
+.movie-card {
+    background: grey;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+    width: 220px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.movie-card > img {
+    width: 100%;
+}
+
+.movie-card > p {
+    font-size: 0.6em;
+}
